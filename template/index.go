@@ -2,6 +2,6 @@ package template
 
 import "fmt"
 
-func index() {
+func IndexPage() {
 	fmt.Println("INDEX PAGE")
 }
