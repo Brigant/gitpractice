@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func Intro() {
+	fmt.Println("Hello in INTRO. Let's GO")
+}
+
 func ShowMsg(msg string) error {
 	if len(msg) < 3 {
 		return fmt.Errorf("Too short message: \"%s\"\n", msg)
